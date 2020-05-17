@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/feature_aes" />
             <option value="$PROJECT_DIR$/feature_base64" />
+            <option value="$PROJECT_DIR$/file_api" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

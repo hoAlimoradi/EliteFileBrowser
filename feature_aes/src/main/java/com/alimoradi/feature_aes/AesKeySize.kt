@@ -1,4 +1,5 @@
 package com.alimoradi.feature_aes
 
-public class MyClass {
+enum class AesKeySize {
+    KEY_256
 }
