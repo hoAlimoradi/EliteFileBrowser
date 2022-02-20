@@ -1,0 +1,65 @@
+
+M
+java:S1135/"2Complete the task associated to this TODO comment.(žƒŽ¦úÿÿÿÿ
+n
+java:S16021"SRemove useless curly braces around statement and then remove useless return keyword(¹¶ºùøÿÿÿÿ
+d
+java:S3252î"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(õÁÙ½
+C
+java:S1874î",Remove this use of "DATA"; it is deprecated.(õÁÙ½
+n
+java:S3776˜"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(ØÒŒÖùÿÿÿÿ
+_
+java:S1874µ"CRemove this use of "getExternalStorageDirectory"; it is deprecated.(¥­º­ÿÿÿÿÿ
+_
+java:S1874·"CRemove this use of "getExternalStorageDirectory"; it is deprecated.(˜Áâ­úÿÿÿÿ
+D	java:S108Ï")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ
+i
+java:S3776Ö"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(·‡ ‹
+R	java:S125×"<This block of commented-out lines of code should be removed.( û‡æ
+e
+java:S1874ˆ"IRemove this use of "getExternalStoragePublicDirectory"; it is deprecated.(Ñƒóîøÿÿÿÿ
+F
+java:S2093Õ"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+a
+java:S2674ÿ"JCheck the return value of the "read" call to see how many bytes were read.(·ø²¹
+F
+java:S2093û"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+a
+java:S2674›"JCheck the return value of the "read" call to see how many bytes were read.(¹œ›Ú
+F
+java:S2093”"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+O
+java:S1854ã"8Remove this useless assignment to local variable "size".(è•Âä
+@
+java:S1481ã")Remove this unused "size" local variable.(è•Âä
+Q
+java:S1141Õ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+r
+java:S11041"WMake sComparator a static final constant or non-public and provide accessors if needed.(¹¶ºùøÿÿÿÿ
+r
+java:S11049"WMake sFileFilter a static final constant or non-public and provide accessors if needed.(ÝÍŒÏüÿÿÿÿ
+l
+java:S1104A"VMake sDirFilter a static final constant or non-public and provide accessors if needed.(†šàÍ
+L
+java:S14441"1Make this "public static sComparator" field final(¹¶ºùøÿÿÿÿ
+L
+java:S14449"1Make this "public static sFileFilter" field final(ÝÍŒÏüÿÿÿÿ
+F
+java:S1444A"0Make this "public static sDirFilter" field final(†šàÍ
+]
+java:S2184²"ACast one of the operands of this division operation to a "float".(¨“ƒˆúÿÿÿÿ
+\
+java:S2184²"@Cast one of the operands of this integer division to a "double".(¨“ƒˆúÿÿÿÿ
+c
+java:S2259š"GA "NullPointerException" could be thrown; "extension" is nullable here.(Ÿ¬Ÿüÿÿÿÿ
+`
+java:S2095æ"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ª¦Ò
+e
+java:S2095Ù"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(¸æýº
+n
+java:S2095ý"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(Óù€¯øÿÿÿÿ
+j
+java:S2095ç"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(°§¿ƒøÿÿÿÿ
+S
+java:S2589¸"7Remove this expression which always evaluates to "true"(Â“ò¼ûÿÿÿÿ

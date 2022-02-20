@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/android_q/layout/activity_add_acount.xml" value="0.42346014492753625" />
+        <entry key="app/src/main/res/android_q/layout/activity_decode_wizard.xml" value="0.4822916666666667" />
+        <entry key="app/src/main/res/android_q/layout/activity_encode_success.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/android_q/layout/activity_expoert_my.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/android_q/layout/activity_splash.xml" value="0.4519927536231884" />
+        <entry key="app/src/main/res/android_q/layout/fragment_decode_steganography_info.xml" value="0.4822916666666667" />
+        <entry key="app/src/main/res/android_q/layout/list_account_item.xml" value="0.42346014492753625" />
+        <entry key="app/src/main/res/android_q/layout/view_settings_authentication.xml" value="0.4519927536231884" />
+        <entry key="app/src/main/res/bottom_bar/layout/view_bottom_bar.xml" value="0.4822916666666667" />
+        <entry key="app/src/main/res/file_column_detail/drawable/ic_content_copy_black_24dp.xml" value="0.487" />
+        <entry key="app/src/main/res/file_column_detail/layout/view_file_column_detail.xml" value="0.42346014492753625" />
+        <entry key="app/src/main/res/file_column_row/menu/menu_file_row.xml" value="0.1984375" />
+        <entry key="app/src/main/res/file_details/layout/activity_decode.xml" value="0.4822916666666667" />
+        <entry key="app/src/main/res/file_details/layout/activity_encode.xml" value="0.45561594202898553" />
+        <entry key="app/src/main/res/file_list/layout/view_file_list.xml" value="0.47291666666666665" />
+        <entry key="app/src/main/res/file_list_row/layout/view_file_list_row.xml" value="0.47291666666666665" />
+        <entry key="app/src/main/res/file_list_row/layout/view_file_list_row_preview.xml" value="0.47291666666666665" />
+        <entry key="app/src/main/res/main/layout/activity_main.xml" value="0.42346014492753625" />
+        <entry key="app/src/main/res/settings/layout/view_settings_developer.xml" value="0.4822916666666667" />
+        <entry key="app/src/main/res/settings_storage/drawable/ic_baseline_groups_24.xml" value="0.205" />
+        <entry key="app/src/main/res/settings_storage/drawable/ic_baseline_person_24.xml" value="0.205" />
+        <entry key="app/src/main/res/settings_storage/drawable/ic_baseline_qr_code_24.xml" value="0.449" />
+        <entry key="app/src/main/res/settings_store/drawable/ic_baseline_groups_24.xml" value="0.478" />
+        <entry key="app/src/main/res/settings_store/drawable/ic_baseline_person_24.xml" value="0.478" />
+        <entry key="app/src/main/res/settings_store/drawable/ic_baseline_qr_code_24.xml" value="0.478" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

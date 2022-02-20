@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <HorizontalScrollView
+        android:id="@+id/view_file_column_horizontal_lists_horizontal_scroll_view"
+        style="@style/HorizontalAppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:clipToPadding="false"
+        android:scrollbarSize="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/view_file_column_horizontal_lists_list_view_container"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+
+            <com.alimoradi.elitefilebrowser.file_column_detail.FileColumnDetailView
+                android:id="@+id/view_file_column_horizontal_lists_file_detail_view"
+                android:layout_width="@dimen/file_detail_width"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/view_file_column_horizontal_lists_fab"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="@dimen/bottom_bar_height_plus_24"
+        android:layout_marginEnd="@dimen/default_space_2"
+        android:padding="0dp"
+        android:src="@drawable/ic_play_arrow_black_24dp"
+        android:tint="@android:color/white" />
+
+</merge>

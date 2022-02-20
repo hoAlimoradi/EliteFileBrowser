@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "873593487291",
+    "firebase_url": "https://project-45dc6.firebaseio.com",
+    "project_id": "emmproject-45dc6",
+    "storage_bucket": "emmproject-45dc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873593487291:android:9f1dde7c2ae136c91c8e9e",
+        "android_client_info": {
+          "package_name": "com.alimoradi.elitefilebrowser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873593487291-fsscce6nckijcf6o7l369mc82pbtsc6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alimoradi.elitefilebrowser",
+            "certificate_hash": "0479c775c2c9b33483c8c7def79932432f75dfc8"
+          }
+        },
+        {
+          "client_id": "873593487291-i95qu6arud8tb2jbd4f4h5o44p8r581a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABsnwJhLxU-l9ZzSGPhiu9Ekpth5pZKWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873593487291-i95qu6arud8tb2jbd4f4h5o44p8r581a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

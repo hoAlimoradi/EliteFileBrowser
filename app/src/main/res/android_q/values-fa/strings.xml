@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt_negative_text">ادامه</string>
+    <string name="prompt_title">احراز هویت</string>
+    <string name="prompt_subtitle">لطفا هویت خود را تایید کنید</string>
+    <string name="prompt_description">این بخش توسط دستگاه انجام می شود نه برنامه</string>
+    <string name="second_description_splash">به برنامه رمزگذاری و رمزگشایی خوش آمدید، در صورت نیاز می توانید تنظیمات ورود به سیستم را با تنظیمات امنیتی فعال کنید. الگوریتم سیگنال برای رمزگشایی نقطه به نقطه استفاده می شود</string>
+    <string name="hide_input_password_hint">کلمه عبور را وارد کنید</string>
+    <string name="view_settings_authentication_label">احراز هویت</string>
+    <string name="view_settings_authentication_sublabel">استفاده از کلمه عبور یا اثر انگشت</string>
+    <string name="view_settings_authentication_section_label">امنیت</string>
+    <string name="bottom_bar_ok">باشه</string>
+    <string name="view_settings_storage_local_label">حافظه داخلی</string>
+
+
+
+</resources>

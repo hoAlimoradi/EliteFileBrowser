@@ -1,0 +1,8 @@
+include ':file_api_online_android'
+include ':file_api_online'
+include ':file_api_android'
+include ':file_api'
+include ':feature_base64'
+include ':feature_aes'
+include ':app'
+rootProject.name = "EliteFileBrowser"

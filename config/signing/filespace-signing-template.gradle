@@ -1,0 +1,8 @@
+rootProject.ext.releaseEiteFileBrowserSigningConfig = {
+    storeFile file("../config/signing/elitefilebrowser.jks")
+    storePassword ""
+    keyAlias ""
+    keyPassword ""
+}
+
+

@@ -1,0 +1,342 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.alimoradi.elitefilebrowser"
+4    android:versionCode="1"
+5    android:versionName="1.0.0.dev" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+11-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:6:5-7:40
+11-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:6:22-79
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:8:5-67
+12-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:9:5-81
+13-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:10:5-80
+14-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+15-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:11:5-80
+15-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:11:22-77
+16    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+16-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:12:5-83
+16-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:12:22-80
+17    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+17-->[androidx.biometric:biometric:1.2.0-alpha04] /home/ho/.gradle/caches/transforms-2/files-2.1/87b0f0015d6eaf931a4771c56c8970c8/biometric-1.2.0-alpha04/AndroidManifest.xml:24:5-72
+17-->[androidx.biometric:biometric:1.2.0-alpha04] /home/ho/.gradle/caches/transforms-2/files-2.1/87b0f0015d6eaf931a4771c56c8970c8/biometric-1.2.0-alpha04/AndroidManifest.xml:24:22-69
+18    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+18-->[androidx.biometric:biometric:1.2.0-alpha04] /home/ho/.gradle/caches/transforms-2/files-2.1/87b0f0015d6eaf931a4771c56c8970c8/biometric-1.2.0-alpha04/AndroidManifest.xml:27:5-74
+18-->[androidx.biometric:biometric:1.2.0-alpha04] /home/ho/.gradle/caches/transforms-2/files-2.1/87b0f0015d6eaf931a4771c56c8970c8/biometric-1.2.0-alpha04/AndroidManifest.xml:27:22-71
+19    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+19-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+19-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+20    <uses-feature
+20-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+21        android:name="android.hardware.camera"
+21-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+22        android:required="false" />
+22-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+23    <uses-feature
+23-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+24        android:name="android.hardware.camera.front"
+24-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+25        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+26    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+28        android:name="android.hardware.camera.autofocus"
+28-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+31        android:name="android.hardware.camera.flash"
+31-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+34        android:name="android.hardware.screen.landscape"
+34-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+37        android:name="android.hardware.wifi"
+37-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+39
+40    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+41
+42    <application
+42-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:14:5-138:19
+43        android:name="com.alimoradi.elitefilebrowser.main.MainApplication"
+43-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:15:9-45
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.3.2] /home/ho/.gradle/caches/transforms-2/files-2.1/8ffcffea86f0b02e3bc22b66dbaf1aa2/core-1.3.2/AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:icon="@mipmap/ic_launcher"
+46-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:16:9-43
+47        android:label="@string/app_name"
+47-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:17:9-41
+48        android:largeHeap="true"
+48-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:20:9-33
+49        android:requestLegacyExternalStorage="true"
+49-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:18:9-52
+50        android:supportsRtl="true"
+50-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:19:9-35
+51        android:testOnly="true"
+52        android:usesCleartextTraffic="true" >
+52-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:21:9-44
+53        <provider
+54            android:name="androidx.core.content.FileProvider"
+54-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:25:13-62
+55            android:authorities="com.alimoradi.elitefilebrowser.provider"
+55-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:26:13-60
+56            android:exported="false"
+56-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:27:13-37
+57            android:grantUriPermissions="true" >
+57-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:28:13-47
+58            <meta-data
+58-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:29:13-31:58
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:30:17-67
+60                android:resource="@xml/provider_paths" />
+60-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:31:17-55
+61        </provider>
+62
+63        <activity
+63-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:34:9-38:39
+64            android:name="com.alimoradi.elitefilebrowser.steganography.success.EncodeSuccessActivity"
+64-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:37:13-72
+65            android:exported="true"
+65-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:38:13-36
+66            android:screenOrientation="portrait"
+66-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:35:13-49
+67            android:theme="@style/AppTheme" />
+67-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:36:13-44
+68        <activity
+68-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:41:9-44:47
+69            android:name="com.alimoradi.elitefilebrowser.export_account.ExportMyActivity"
+69-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:42:13-60
+70            android:screenOrientation="portrait"
+70-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:43:13-49
+71            android:theme="@style/AppTheme" />
+71-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:44:13-44
+72        <activity
+72-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:47:9-53:20
+73            android:name="com.alimoradi.elitefilebrowser.steganography.encode.EncodeActivity"
+73-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:50:13-64
+74            android:configChanges="orientation|screenSize"
+74-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:51:13-59
+75            android:screenOrientation="portrait"
+75-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:48:13-49
+76            android:theme="@style/AppTheme" >
+76-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:49:13-44
+77        </activity>
+78
+79        <provider
+80            android:name="androidx.core.content.FileProvider"
+80-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:25:13-62
+81            android:authorities="com.alimoradi.elitefilebrowser.provider"
+81-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:26:13-60
+82            android:exported="false"
+82-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:27:13-37
+83            android:grantUriPermissions="true" >
+83-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:28:13-47
+84            <meta-data
+84-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:29:13-31:58
+85                android:name="android.support.FILE_PROVIDER_PATHS"
+85-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:30:17-67
+86                android:resource="@xml/provider_paths" />
+86-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:31:17-55
+87        </provider> <!-- decode -->
+88
+89        <activity
+89-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:65:9-71:20
+90            android:name="com.alimoradi.elitefilebrowser.steganography.decode.DecodeActivity"
+90-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:66:13-64
+91            android:configChanges="orientation|screenSize"
+91-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:69:13-59
+92            android:screenOrientation="portrait"
+92-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:67:13-49
+93            android:theme="@style/AppTheme" >
+93-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:68:13-44
+94        </activity>
+95        <activity
+95-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:74:9-84:20
+96            android:name="com.alimoradi.elitefilebrowser.splash.SplashActivity"
+96-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:75:13-50
+97            android:launchMode="singleTask"
+97-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:76:13-44
+98            android:screenOrientation="portrait"
+98-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:77:13-49
+99            android:theme="@style/AppTheme" >
+99-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:78:13-44
+100            <intent-filter>
+100-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:79:13-83:29
+101                <action android:name="android.intent.action.MAIN" />
+101-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:80:17-69
+101-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:80:25-66
+102
+103                <category android:name="android.intent.category.LAUNCHER" />
+103-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:82:17-77
+103-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:82:27-74
+104            </intent-filter>
+105        </activity>
+106        <activity
+106-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:85:9-98:20
+107            android:name="com.alimoradi.elitefilebrowser.addAccount.AddAccountActivity"
+107-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:86:13-58
+108            android:screenOrientation="portrait"
+108-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:87:13-49
+109            android:theme="@style/AppTheme" >
+109-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:88:13-44
+110
+111            <!--
+112            <intent-filter>
+113                <action android:name="android.intent.action.MAIN" />
+114
+115                <category android:name="android.intent.category.LAUNCHER" />
+116            </intent-filter>
+117            -->
+118
+119        </activity>
+120        <activity
+120-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:99:9-110:20
+121            android:name="com.alimoradi.elitefilebrowser.main.MainActivity"
+121-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:100:13-46
+122            android:theme="@style/HomeTheme" >
+122-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:101:13-45
+123
+124            <!--
+125                    <intent-filter>
+126                <action android:name="android.intent.action.MAIN" />
+127
+128                <category android:name="android.intent.category.LAUNCHER" />
+129            </intent-filter>
+130            -->
+131        </activity>
+132        <activity
+132-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:111:9-113:47
+133            android:name="com.alimoradi.elitefilebrowser.android_q.AndroidQActivity"
+133-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:112:13-55
+134            android:theme="@style/AppTheme" />
+134-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:113:13-44
+135        <activity
+135-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:114:9-117:73
+136            android:name="com.alimoradi.elitefilebrowser.permission.PermissionActivity"
+136-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:115:13-58
+137            android:launchMode="singleTop"
+137-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:116:13-43
+138            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+138-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:117:13-70
+139        <activity
+139-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:118:9-121:73
+140            android:name="com.alimoradi.elitefilebrowser.dialog.DialogActivity"
+140-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:119:13-50
+141            android:launchMode="singleTop"
+141-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:120:13-43
+142            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+142-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:121:13-70
+143        <activity
+143-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:122:9-125:73
+144            android:name="com.alimoradi.elitefilebrowser.file_online_upload.FileOnlineUploadActivity"
+144-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:123:13-72
+145            android:launchMode="singleTop"
+145-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:124:13-43
+146            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+146-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:125:13-70
+147        <activity
+147-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:126:9-129:73
+148            android:name="com.alimoradi.elitefilebrowser.file_details.FileDetailsActivity"
+148-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:127:13-61
+149            android:launchMode="singleTop"
+149-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:128:13-43
+150            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+150-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:129:13-70
+151
+152        <receiver
+152-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:131:9-133:40
+153            android:name="com.alimoradi.elitefilebrowser.notification.NotificationAudioReceiver"
+153-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:132:13-67
+154            android:exported="false" />
+154-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:133:13-37
+155
+156        <meta-data
+156-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:135:9-137:72
+157            android:name="io.fabric.ApiKey"
+157-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:136:13-44
+158            android:value="9e044dd857b2ddabd24e6e1dfce92efabe4ed0d9" />
+158-->/home/ho/AndroidStudioProjects/sarbaziBackup/EliteFileBrowser/app/src/main/AndroidManifest.xml:137:13-69
+159
+160        <activity
+160-->[com.google.android.gms:play-services-oss-licenses:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/fe9224fa9e14c1345f949020e1db2846/play-services-oss-licenses-17.0.0/AndroidManifest.xml:23:9-25:57
+161            android:name="com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
+161-->[com.google.android.gms:play-services-oss-licenses:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/fe9224fa9e14c1345f949020e1db2846/play-services-oss-licenses-17.0.0/AndroidManifest.xml:24:13-87
+162            android:label="@string/oss_license_title" />
+162-->[com.google.android.gms:play-services-oss-licenses:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/fe9224fa9e14c1345f949020e1db2846/play-services-oss-licenses-17.0.0/AndroidManifest.xml:25:13-54
+163        <activity android:name="com.google.android.gms.oss.licenses.OssLicensesActivity" />
+163-->[com.google.android.gms:play-services-oss-licenses:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/fe9224fa9e14c1345f949020e1db2846/play-services-oss-licenses-17.0.0/AndroidManifest.xml:26:9-92
+163-->[com.google.android.gms:play-services-oss-licenses:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/fe9224fa9e14c1345f949020e1db2846/play-services-oss-licenses-17.0.0/AndroidManifest.xml:26:19-89
+164        <activity
+164-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+165            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+165-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+166            android:clearTaskOnLaunch="true"
+166-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+167            android:screenOrientation="sensorLandscape"
+167-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+168            android:stateNotNeeded="true"
+168-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+169            android:theme="@style/zxing_CaptureTheme"
+169-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+170            android:windowSoftInputMode="stateAlwaysHidden" />
+170-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/ho/.gradle/caches/transforms-2/files-2.1/eab6480389deafe3b1acc057d325f335/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+171        <activity
+171-->[com.google.android.gms:play-services-base:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/669da7b4a89f86b5e6e7c284165699db/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+172            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+172-->[com.google.android.gms:play-services-base:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/669da7b4a89f86b5e6e7c284165699db/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+173            android:exported="false"
+173-->[com.google.android.gms:play-services-base:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/669da7b4a89f86b5e6e7c284165699db/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+174            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+174-->[com.google.android.gms:play-services-base:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/669da7b4a89f86b5e6e7c284165699db/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+175
+176        <meta-data
+176-->[com.google.android.gms:play-services-basement:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/d5f03fe391aa934844d26c23dc2866b2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+177            android:name="com.google.android.gms.version"
+177-->[com.google.android.gms:play-services-basement:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/d5f03fe391aa934844d26c23dc2866b2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+178            android:value="@integer/google_play_services_version" />
+178-->[com.google.android.gms:play-services-basement:17.0.0] /home/ho/.gradle/caches/transforms-2/files-2.1/d5f03fe391aa934844d26c23dc2866b2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+179
+180        <provider
+180-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/ho/.gradle/caches/transforms-2/files-2.1/09c8cdc581e718320efb533339bee706/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+181            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+181-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/ho/.gradle/caches/transforms-2/files-2.1/09c8cdc581e718320efb533339bee706/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+182            android:authorities="com.alimoradi.elitefilebrowser.lifecycle-process"
+182-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/ho/.gradle/caches/transforms-2/files-2.1/09c8cdc581e718320efb533339bee706/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+183            android:exported="false"
+183-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/ho/.gradle/caches/transforms-2/files-2.1/09c8cdc581e718320efb533339bee706/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+184            android:multiprocess="true" />
+184-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/ho/.gradle/caches/transforms-2/files-2.1/09c8cdc581e718320efb533339bee706/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+185
+186        <service
+186-->[androidx.room:room-runtime:2.4.1] /home/ho/.gradle/caches/transforms-2/files-2.1/67ae2e36172e0b8cc731399f6a1ce684/room-runtime-2.4.1/AndroidManifest.xml:25:9-28:40
+187            android:name="androidx.room.MultiInstanceInvalidationService"
+187-->[androidx.room:room-runtime:2.4.1] /home/ho/.gradle/caches/transforms-2/files-2.1/67ae2e36172e0b8cc731399f6a1ce684/room-runtime-2.4.1/AndroidManifest.xml:26:13-74
+188            android:directBootAware="true"
+188-->[androidx.room:room-runtime:2.4.1] /home/ho/.gradle/caches/transforms-2/files-2.1/67ae2e36172e0b8cc731399f6a1ce684/room-runtime-2.4.1/AndroidManifest.xml:27:13-43
+189            android:exported="false" />
+189-->[androidx.room:room-runtime:2.4.1] /home/ho/.gradle/caches/transforms-2/files-2.1/67ae2e36172e0b8cc731399f6a1ce684/room-runtime-2.4.1/AndroidManifest.xml:28:13-37
+190    </application>
+191
+192</manifest>

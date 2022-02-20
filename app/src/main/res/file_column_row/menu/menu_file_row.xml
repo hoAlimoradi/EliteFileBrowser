@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_file_row_copy"
+        android:title="@string/file_row_copy" />
+
+    <item
+        android:id="@+id/menu_file_row_cut"
+        android:title="@string/file_row_cut" />
+
+    <item
+        android:id="@+id/menu_file_row_delete"
+        android:title="@string/file_row_delete" />
+
+    <item
+        android:id="@+id/menu_file_row_rename"
+        android:title="@string/file_row_rename" />
+
+    <item
+        android:id="@+id/menu_file_row_zip"
+        android:title="@string/file_row_zip" />
+    <item
+        android:id="@+id/menu_file_row_unzip"
+        android:title="@string/file_row_unzip" />
+
+    <item
+        android:id="@+id/menu_file_row_details"
+        android:title="@string/file_row_details" />
+
+</menu>

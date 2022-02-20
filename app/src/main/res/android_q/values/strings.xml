@@ -1,0 +1,15 @@
+<resources>
+    <string name="prompt_negative_text">next</string>
+    <string name="prompt_title">Authentication</string>
+    <string name="prompt_subtitle">Please confirm your identity</string>
+    <string name="prompt_description">This section is verified by the phone itself</string>
+    <string name="second_description_splash">Welcome to the encryption and decryption program, if needed, you can activate the login settings with security settings. The signal algorithm is used for point-to-point decoding</string>
+    <string name="hide_input_password_hint">Enter the password here ..</string>
+    <string name="decode" translatable="false">Decode</string>
+    <string name="view_settings_authentication_label">Authentication</string>
+    <string name="view_settings_authentication_sublabel">Use pin, password or fingerprint</string>
+    <string name="view_settings_authentication_section_label">Security</string>
+    <string name="file_row_unzip" translatable="false">unZip</string>
+    <string name="encode" translatable="false">encode</string>
+
+</resources>
